@@ -1,0 +1,7 @@
+(.sldemo) voclabs:~/environment/project-ml-microservice-kubernetes $ bash run_kubernetes.sh
+Error from server (AlreadyExists): pods "sldemo" already exists
+NAME     READY   STATUS    RESTARTS   AGE
+sldemo   1/1     Running   0          49s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000

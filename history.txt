@@ -1,0 +1,126 @@
+    1  cd project-ml-microservice-kubernetes/
+    2  bash resize.sh 100
+    3  make setup
+    4  source ~/.devops/bin/activate
+    5  source ~/.sldemo/bin/activate
+    6  make install
+    7  make lint
+    8  make install
+    9  make lint
+   10  make install
+   11  make lint
+   12  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+   13  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+   14  ls
+   15  cd project-ml-microservice-kubernetes/
+   16  make setup
+   17  source ~/.sldemo/bin/activate
+   18  curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+   19  sudo chmod +x ./kubectl
+   20  sudo mv ./kubectl /usr/local/bin/kubectl
+   21  docker version
+   22  make lint
+   23  make setup
+   24  cd project-ml-microservice-kubernetes/
+   25  make setup
+   26  ce it
+   27  # source ~/.sldemo/bin/activate
+   28   source ~/.sldemo/bin/activate
+   29  bash make_prediction.sh 
+   30  bash run_docker.sh
+   31  bash make_prediction.sh
+   32  touch docker_out.txt
+   33  ls
+   34  clear
+   35  bash upload_docker.sh
+   36  minikube start
+   37  touch kubernetes_out.txt
+   38  bash run_kubernetes.sh
+   39  bash make_prediction.sh
+   40  ls
+   41  ls -a
+   42  cd .circleci/
+   43  ls
+   44  cat config.yml 
+   45  cd ..
+   46  git init
+   47  git -m commit "project 4 upload"
+   48  git  commit -m "project 4 upload"
+   49  git add .
+   50  git status
+   51  git  commit -m "project 4 upload"
+   52  git branch -M main
+   53  git remote add origin https://github.com/unbeatable-abayomi/project-ml-microservice-kubernetes.git
+   54  git push -u origin main
+   55  ls
+   56  ls -a
+   57  rm .git
+   58  sudo rm .git
+   59  sudo rm .git -r
+   60  ls -a
+   61  git init
+   62  git add .
+   63  git status
+   64  git  commit -m "project 4 upload"
+   65  git branch -M main
+   66  git remote add origin https://github.com/nou223098056/project-ml-microservice-kubernetes.git
+   67  git push -u origin main
+   68  git config --global user.name "igwubor abaymi"
+   69  git config --global user.email "igwubor@outlook.com"
+   70  ls -a
+   71  sudo rm .git -r
+   72  git init
+   73  git add .
+   74  git status
+   75  git remote add origin https://github.com/unbeatable-abayomi/project-ml-microservice-kubernetes.git
+   76  git branch -M main
+   77  git remote add origin https://github.com/unbeatable-abayomi/project-ml-microservice-kubernetes.git
+   78  git  commit -m "project 4 upload"
+   79  git push -u origin main
+   80  ls
+   81  cd project-ml-microservice-kubernetes/
+   82  ls
+   83  git --version
+   84  gh auth login
+   85  sudo apt install gh
+   86  apt install gh
+   87  ls -a
+   88  gh auth login
+   89  git config --global --list
+   90  git config --global user.name "unbeatable-abayomi"
+   91  git config --global --list
+   92  git push -u origin main
+   93  cd ~/.ssh
+   94  ls
+   95  cd ..
+   96  ls
+   97  cd project-ml-microservice-kubernetes/
+   98  git push
+   99  git push --set-upstream origin main
+  100  ls -a
+  101  git status
+  102  git add .
+  103  git commit -m "modfied config"
+  104  git push
+  105  git add .
+  106  git commit -m "included status Badge"
+  107  git push
+  108  git add .
+  109  git commit -m "added screenshhots"
+  110  git status
+  111  git push
+  112  ls
+  113  git status
+  114  git add .
+  115  git commit -m "added screenshhots"
+  116  git push
+  117  history
+  118  git status
+  119  git add .
+  120  git commit -m "modified README"
+  121  git push
+  122  git add .
+  123  git commit -am "modified README"
+  124  git push
+  125  cd project-ml-microservice-kubernetes/
+  126  history > history.txt

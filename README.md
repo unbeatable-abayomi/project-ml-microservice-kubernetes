@@ -56,42 +56,42 @@ This project could be extended to any pre-trained machine learning model, such a
 
 ## Useful Commands
 
-   1  cd project-ml-microservice-kubernetes/
-    2  bash resize.sh 100
-    3  make setup
-    4  source ~/.devops/bin/activate
-    5  source ~/.sldemo/bin/activate
-    6  make install
-    7  make lint
-    8  make install
-    9  make lint
-   10  make install
-   11  make lint
-   12  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-   13  sudo install minikube-linux-amd64 /usr/local/bin/minikube
-   14  ls
-   15  cd project-ml-microservice-kubernetes/
-   16  make setup
-   17  source ~/.sldemo/bin/activate
-   18  curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
-   19  sudo chmod +x ./kubectl
-   20  sudo mv ./kubectl /usr/local/bin/kubectl
-   21  docker version
-   22  make lint
-   23  make setup
-   24  cd project-ml-microservice-kubernetes/
-   25  make setup
-   26  ce it
-   27  # source ~/.sldemo/bin/activate
-   28   source ~/.sldemo/bin/activate
-   29  bash make_prediction.sh 
-   30  bash run_docker.sh
-   31  bash make_prediction.sh
-   32  touch docker_out.txt
-   33  ls
-   34  clear
-   35  bash upload_docker.sh
-   36  minikube start
-   37  touch kubernetes_out.txt
-   38  bash run_kubernetes.sh
-   39  bash make_prediction.sh
+    1. cd project-ml-microservice-kubernetes/
+    2.  bash resize.sh 100
+    3. make setup
+    4.  source ~/.devops/bin/activate
+    5.  source ~/.sldemo/bin/activate
+    6.  make install
+    7.  make lint
+    8.  make install
+    9.  make lint
+   10.  make install
+   11.  make lint
+   12.  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+   13.  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+   14.  ls
+   15.  cd project-ml-microservice-kubernetes/
+   16.  make setup
+   17.  source ~/.sldemo/bin/activate
+   18.  curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+   19.  sudo chmod +x ./kubectl
+   20.  sudo mv ./kubectl /usr/local/bin/kubectl
+   21.  docker version
+   22.  make lint
+   23.  make setup
+   24.  cd project-ml-microservice-kubernetes/
+   25.  make setup
+   26.  ce it
+   27.  # source ~/.sldemo/bin/activate
+   28.   source ~/.sldemo/bin/activate
+   29.  bash make_prediction.sh 
+   30.  bash run_docker.sh
+   31.  bash make_prediction.sh
+   32.  touch docker_out.txt
+   33.  ls
+   34.  clear
+   35.  bash upload_docker.sh
+   36. minikube start
+   37.  touch kubernetes_out.txt
+   38.  bash run_kubernetes.sh
+   39.  bash make_prediction.sh
